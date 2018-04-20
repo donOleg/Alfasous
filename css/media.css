@@ -1,0 +1,244 @@
+@media screen and (max-width: 1300px) {
+  .main-info__inner .special {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-info__inner {
+    width: 960px;
+  }
+  .main-info__inner .optimal {
+    margin: 15px 0 25px 0;
+  }
+  .main-info__inner .special {
+    margin-bottom: 30px;
+  }
+  .head__main-title {
+    font-size: 45px;
+  }
+  .head__main-descr {
+    font-size: 20px;
+  }
+  .advantages-list__item {
+    margin-bottom: 20px;
+  }
+  .footer .header-info {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  header .nav-item {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #f6f4f4;
+  }
+  header .nav-item:last-child {
+    border-bottom: none;
+  }
+  .main-info__inner {
+    width: 720px;
+  }
+  .optimal__text {
+    width: 50%;
+    padding-left: 0;
+  }
+  .main-info__inner .special,
+  .head__text {
+    display: none;
+  }
+  .achievements-item {
+    width: 28%;
+    margin-bottom: 20px;
+  }
+  .row_video {
+    margin-bottom: 20px;
+  }
+  .option-element {
+    text-align: center;
+  }
+  .section-form-info {
+    padding-left: 0;
+  }
+  .b-form {
+    width: 355px;
+    padding: 30px;
+  }
+  .btn_more {
+    font-size: 11px;
+  }
+  .section-map__contact {
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-info {
+    flex-direction: column;
+  }
+  .b-email,
+  .order-call {
+    margin-bottom: 15px;
+    padding-left: 0;
+  }
+  .b-phone__week {
+    top: -7px;
+  }
+  .main-info__inner {
+    max-width: 490px;
+  }
+  .main-info__inner .optimal,
+  .main-info__inner .risc {
+    display: none;
+  }
+  .main-info__inner .head {
+    margin-top: auto;
+  }
+  .main-info__inner {
+    top: 25%;
+  }
+  .head__main {
+    padding-left: 0;
+  }
+  .main-info__item_visible {
+    width: 100%;
+  }
+  .main-info__item_invisible {
+    display: none;
+  }
+  .achievements {
+    padding-bottom: 30px;
+  }
+  .project-video-quote {
+    width: 100%;
+  }
+  .project-video,
+  .advantages,
+  .technology,
+  .section-form,
+  .gallery {
+    padding: 30px 0;
+  }
+  .stage-ground__item:after {
+    top: -51px;
+    font-size: 40px;
+  }
+  .price-head_norm {
+    font-size: 14px;
+  }
+  .option-element_cost {
+    font-size: 20px;
+  }
+  .sign_author {
+    text-align: left;
+  }
+  .section-form-info {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  .section-map {
+    margin-bottom: 20px;
+  }
+  .footer-menu {
+    text-align: center;
+  }
+  .footer .header-info {
+    align-items: center;
+  }
+  .footer .b-phone__week {
+    top: -17px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .technology-foto {
+    text-align: center;
+  }
+  .price-head {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  .option-element {
+    font-size: 12px;
+  }
+  .option-element_cost {
+    font-size: 15px;
+  }
+  .section-map__contact {
+    left: 20px;
+    right: 20px;
+  }
+  .section-map iframe {
+    height: 1000px;
+  }
+  #orderCall .modal-body {
+    padding: 0 50px 50px 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-info__inner {
+    width: 300px;
+  }
+  .head__main-title {
+    font-size: 28px;
+  }
+  .head__main-descr {
+    font-size: 12px;
+  }
+  .achievements-item {
+    width: 45%;
+  }
+  .section-head {
+    font-size: 20px;
+  }
+  .advantages-list__item {
+    width: 100%;
+  }
+  .stage-ground__item:after {
+    top: -30px;
+    font-size: 30px;
+  }
+  .stage-ground-list:before {
+    top: -16px;
+  }
+  .stage-ground__item:before {
+    top: -20px;
+  }
+  .section-first-word {
+    text-indent: 0;
+    font-size: 14px;
+  }
+  .b-form {
+    width: 100%;
+    padding: 10px;
+  }
+  .form-label {
+    font-size: 10px;
+  }
+  .btn_more {
+    font-size: 9px;
+  }
+  .order-call_contact .btn {
+    padding: 15px;
+  }
+  #orderCall .modal-body {
+    padding: 0 20px 20px 20px;
+  }
+  #orderCall .modal-title {
+    font-size: 19px;
+  }
+  .modal-title-descr {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
